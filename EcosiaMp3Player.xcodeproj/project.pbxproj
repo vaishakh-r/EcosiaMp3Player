@@ -1,0 +1,351 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6C5D0D61E8AE92500BE7662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5D0D51E8AE92500BE7662 /* AppDelegate.swift */; };
+		F6C5D0D81E8AE92500BE7662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5D0D71E8AE92500BE7662 /* ViewController.swift */; };
+		F6C5D0DB1E8AE92500BE7662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C5D0D91E8AE92500BE7662 /* Main.storyboard */; };
+		F6C5D0DD1E8AE92500BE7662 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6C5D0DC1E8AE92500BE7662 /* Assets.xcassets */; };
+		F6C5D0E01E8AE92500BE7662 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C5D0DE1E8AE92500BE7662 /* LaunchScreen.storyboard */; };
+		F6C5D0EB1E8AE94500BE7662 /* You All Over Me - Taylor Swift (DJJOhAL.Com).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6C5D0E81E8AE94500BE7662 /* You All Over Me - Taylor Swift (DJJOhAL.Com).mp3 */; };
+		F6C5D0EC1E8AE94500BE7662 /* Let Me Love You - DJ Snake Ft Justin Bieber.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6C5D0E91E8AE94500BE7662 /* Let Me Love You - DJ Snake Ft Justin Bieber.mp3 */; };
+		F6C5D0ED1E8AE94500BE7662 /* Shape of You - Ed Sheeran.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F6C5D0EA1E8AE94500BE7662 /* Shape of You - Ed Sheeran.mp3 */; };
+		F6C5D0EF1E8AE97900BE7662 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5D0EE1E8AE97900BE7662 /* MusicPlayer.swift */; };
+		F6C5D0F21E8AEA2300BE7662 /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5D0F11E8AEA2300BE7662 /* ViewControllerExtension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F6C5D0D21E8AE92500BE7662 /* EcosiaMp3Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcosiaMp3Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6C5D0D51E8AE92500BE7662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F6C5D0D71E8AE92500BE7662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F6C5D0DA1E8AE92500BE7662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F6C5D0DC1E8AE92500BE7662 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6C5D0DF1E8AE92500BE7662 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F6C5D0E11E8AE92500BE7662 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6C5D0E81E8AE94500BE7662 /* You All Over Me - Taylor Swift (DJJOhAL.Com).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "You All Over Me - Taylor Swift (DJJOhAL.Com).mp3"; sourceTree = "<group>"; };
+		F6C5D0E91E8AE94500BE7662 /* Let Me Love You - DJ Snake Ft Justin Bieber.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Let Me Love You - DJ Snake Ft Justin Bieber.mp3"; sourceTree = "<group>"; };
+		F6C5D0EA1E8AE94500BE7662 /* Shape of You - Ed Sheeran.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Shape of You - Ed Sheeran.mp3"; sourceTree = "<group>"; };
+		F6C5D0EE1E8AE97900BE7662 /* MusicPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		F6C5D0F11E8AEA2300BE7662 /* ViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6C5D0CF1E8AE92500BE7662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6C5D0C91E8AE92500BE7662 = {
+			isa = PBXGroup;
+			children = (
+				F6C5D0D41E8AE92500BE7662 /* EcosiaMp3Player */,
+				F6C5D0D31E8AE92500BE7662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6C5D0D31E8AE92500BE7662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6C5D0D21E8AE92500BE7662 /* EcosiaMp3Player.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6C5D0D41E8AE92500BE7662 /* EcosiaMp3Player */ = {
+			isa = PBXGroup;
+			children = (
+				F6C5D0F01E8AE98500BE7662 /* Utility */,
+				F6C5D0E71E8AE93600BE7662 /* MusicFolder */,
+				F6C5D0D51E8AE92500BE7662 /* AppDelegate.swift */,
+				F6C5D0F11E8AEA2300BE7662 /* ViewControllerExtension.swift */,
+				F6C5D0D71E8AE92500BE7662 /* ViewController.swift */,
+				F6C5D0D91E8AE92500BE7662 /* Main.storyboard */,
+				F6C5D0DC1E8AE92500BE7662 /* Assets.xcassets */,
+				F6C5D0DE1E8AE92500BE7662 /* LaunchScreen.storyboard */,
+				F6C5D0E11E8AE92500BE7662 /* Info.plist */,
+			);
+			path = EcosiaMp3Player;
+			sourceTree = "<group>";
+		};
+		F6C5D0E71E8AE93600BE7662 /* MusicFolder */ = {
+			isa = PBXGroup;
+			children = (
+				F6C5D0E81E8AE94500BE7662 /* You All Over Me - Taylor Swift (DJJOhAL.Com).mp3 */,
+				F6C5D0E91E8AE94500BE7662 /* Let Me Love You - DJ Snake Ft Justin Bieber.mp3 */,
+				F6C5D0EA1E8AE94500BE7662 /* Shape of You - Ed Sheeran.mp3 */,
+			);
+			name = MusicFolder;
+			sourceTree = "<group>";
+		};
+		F6C5D0F01E8AE98500BE7662 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				F6C5D0EE1E8AE97900BE7662 /* MusicPlayer.swift */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6C5D0D11E8AE92500BE7662 /* EcosiaMp3Player */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6C5D0E41E8AE92500BE7662 /* Build configuration list for PBXNativeTarget "EcosiaMp3Player" */;
+			buildPhases = (
+				F6C5D0CE1E8AE92500BE7662 /* Sources */,
+				F6C5D0CF1E8AE92500BE7662 /* Frameworks */,
+				F6C5D0D01E8AE92500BE7662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EcosiaMp3Player;
+			productName = EcosiaMp3Player;
+			productReference = F6C5D0D21E8AE92500BE7662 /* EcosiaMp3Player.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6C5D0CA1E8AE92500BE7662 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Vaishakh;
+				TargetAttributes = {
+					F6C5D0D11E8AE92500BE7662 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ML5FWJB6V9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = F6C5D0CD1E8AE92500BE7662 /* Build configuration list for PBXProject "EcosiaMp3Player" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6C5D0C91E8AE92500BE7662;
+			productRefGroup = F6C5D0D31E8AE92500BE7662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6C5D0D11E8AE92500BE7662 /* EcosiaMp3Player */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6C5D0D01E8AE92500BE7662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C5D0E01E8AE92500BE7662 /* LaunchScreen.storyboard in Resources */,
+				F6C5D0EB1E8AE94500BE7662 /* You All Over Me - Taylor Swift (DJJOhAL.Com).mp3 in Resources */,
+				F6C5D0DD1E8AE92500BE7662 /* Assets.xcassets in Resources */,
+				F6C5D0DB1E8AE92500BE7662 /* Main.storyboard in Resources */,
+				F6C5D0ED1E8AE94500BE7662 /* Shape of You - Ed Sheeran.mp3 in Resources */,
+				F6C5D0EC1E8AE94500BE7662 /* Let Me Love You - DJ Snake Ft Justin Bieber.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6C5D0CE1E8AE92500BE7662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6C5D0F21E8AEA2300BE7662 /* ViewControllerExtension.swift in Sources */,
+				F6C5D0D81E8AE92500BE7662 /* ViewController.swift in Sources */,
+				F6C5D0D61E8AE92500BE7662 /* AppDelegate.swift in Sources */,
+				F6C5D0EF1E8AE97900BE7662 /* MusicPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F6C5D0D91E8AE92500BE7662 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C5D0DA1E8AE92500BE7662 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F6C5D0DE1E8AE92500BE7662 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F6C5D0DF1E8AE92500BE7662 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F6C5D0E21E8AE92500BE7662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F6C5D0E31E8AE92500BE7662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F6C5D0E51E8AE92500BE7662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ML5FWJB6V9;
+				INFOPLIST_FILE = EcosiaMp3Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaishakh.audioplayer.EcosiaMp3Player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F6C5D0E61E8AE92500BE7662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ML5FWJB6V9;
+				INFOPLIST_FILE = EcosiaMp3Player/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaishakh.audioplayer.EcosiaMp3Player;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6C5D0CD1E8AE92500BE7662 /* Build configuration list for PBXProject "EcosiaMp3Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C5D0E21E8AE92500BE7662 /* Debug */,
+				F6C5D0E31E8AE92500BE7662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6C5D0E41E8AE92500BE7662 /* Build configuration list for PBXNativeTarget "EcosiaMp3Player" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6C5D0E51E8AE92500BE7662 /* Debug */,
+				F6C5D0E61E8AE92500BE7662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6C5D0CA1E8AE92500BE7662 /* Project object */;
+}
