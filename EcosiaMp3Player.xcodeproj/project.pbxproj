@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F612C9FD1E8BCB5B005CD689 /* 0.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F612C9FA1E8BCB5B005CD689 /* 0.mp3 */; };
+		F612C9FE1E8BCB5B005CD689 /* 1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F612C9FB1E8BCB5B005CD689 /* 1.mp3 */; };
 		F6C5D0D61E8AE92500BE7662 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5D0D51E8AE92500BE7662 /* AppDelegate.swift */; };
 		F6C5D0D81E8AE92500BE7662 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6C5D0D71E8AE92500BE7662 /* ViewController.swift */; };
 		F6C5D0DB1E8AE92500BE7662 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6C5D0D91E8AE92500BE7662 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F612C9FA1E8BCB5B005CD689 /* 0.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 0.mp3; sourceTree = "<group>"; };
+		F612C9FB1E8BCB5B005CD689 /* 1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 1.mp3; sourceTree = "<group>"; };
 		F6C5D0D21E8AE92500BE7662 /* EcosiaMp3Player.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EcosiaMp3Player.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6C5D0D51E8AE92500BE7662 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6C5D0D71E8AE92500BE7662 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -80,6 +84,8 @@
 		F6C5D0E71E8AE93600BE7662 /* MusicFolder */ = {
 			isa = PBXGroup;
 			children = (
+				F612C9FA1E8BCB5B005CD689 /* 0.mp3 */,
+				F612C9FB1E8BCB5B005CD689 /* 1.mp3 */,
 				F6C5D0E81E8AE94500BE7662 /* You All Over Me - Taylor Swift (DJJOhAL.Com).mp3 */,
 				F6C5D0E91E8AE94500BE7662 /* Let Me Love You - DJ Snake Ft Justin Bieber.mp3 */,
 				F6C5D0EA1E8AE94500BE7662 /* Shape of You - Ed Sheeran.mp3 */,
@@ -164,8 +170,10 @@
 				F6C5D0EB1E8AE94500BE7662 /* You All Over Me - Taylor Swift (DJJOhAL.Com).mp3 in Resources */,
 				F6C5D0DD1E8AE92500BE7662 /* Assets.xcassets in Resources */,
 				F6C5D0DB1E8AE92500BE7662 /* Main.storyboard in Resources */,
+				F612C9FE1E8BCB5B005CD689 /* 1.mp3 in Resources */,
 				F6C5D0ED1E8AE94500BE7662 /* Shape of You - Ed Sheeran.mp3 in Resources */,
 				F6C5D0EC1E8AE94500BE7662 /* Let Me Love You - DJ Snake Ft Justin Bieber.mp3 in Resources */,
+				F612C9FD1E8BCB5B005CD689 /* 0.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
